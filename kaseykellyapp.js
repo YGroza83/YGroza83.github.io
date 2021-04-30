@@ -1,4 +1,4 @@
-url = "https://limitless-brushlands-31442.herokuapp.com/"
+url = "ygroza.com/results.json"
 d3.json(url).then(function (data) {
   var countries = data.map(obj => obj['Name']).sort();
   countries.forEach(country => {
